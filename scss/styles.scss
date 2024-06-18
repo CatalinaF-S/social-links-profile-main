@@ -1,6 +1,6 @@
 //Import variables and mixins
 @import "variables";
-// @import "mixins";
+@import "mixins";
 
 // Fonts
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
@@ -12,50 +12,66 @@
     font-family: $font-primary;
 }
 
-html {
-    background-color: $background-html;
+body {
+    background-color: $background-body;
 }
 
-body {
+main {
     background-color: $background-primary;
     border-radius: 5%;
     display: flex;
     flex-flow: column nowrap;
     text-align: center;
-    width: 50vw;
-    margin: 2.5rem auto;
+    width: $mobile-width;
+    margin: 6.25rem auto;
+
+    @include desktop {
+        margin: 6.25rem auto 0 auto;
+    }
 
     img {
-        margin: 6.25rem auto 1.875rem auto;
+        margin: 3.125rem auto 1.875rem auto;
         height: 12.5rem;
         width: 12.5rem;
         border-radius: 50%;
         text-align: center;
     }
-    main,
+    h1 {
+        color: $color-primary;
+    }
+
     ul {
-        margin-top: 1.5rem;
+        margin: 1rem;
     }
 
     p {
         padding: 1.2rem;
+        color: $color-primary;
     }
 
-    p:first-child {
-        color: $color-city;
-        font-size: 1.5rem;
+    .location {
+        color: $color-accent;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-top: 0;
     }
 
     li {
         list-style: none;
         background-color: $background-secondary;
+        color: $color-primary;
         border-radius: 5%;
-        width: 60%;
+        font-weight: 700;
         margin: 0.75rem auto;
         padding: 1.2rem;
     }
+}
 
-    footer {
-        margin: 6.25rem 0;
+footer {
+    color: $color-secondary;
+    margin: 6.25rem auto 3.125rem auto;
+    text-align: center;
+    a {
+        color: $color-accent;
     }
 }

@@ -6,47 +6,64 @@
   font-family: "Inter", sans-serif;
 }
 
-html {
+body {
   background-color: #1f2544;
 }
 
-body {
+main {
   background-color: #474f7a;
   border-radius: 5%;
   display: flex;
   flex-flow: column nowrap;
   text-align: center;
-  width: 50vw;
-  margin: 2.5rem auto;
+  width: 23.437rem;
+  margin: 6.25rem auto;
 }
-body img {
-  margin: 6.25rem auto 1.875rem auto;
+@media (min-width: 90rem) {
+  main {
+    margin: 6.25rem auto 0 auto;
+  }
+}
+main img {
+  margin: 3.125rem auto 1.875rem auto;
   height: 12.5rem;
   width: 12.5rem;
   border-radius: 50%;
   text-align: center;
 }
-body main,
-body ul {
-  margin-top: 1.5rem;
+main h1 {
+  color: #fdffe2;
 }
-body p {
+main ul {
+  margin: 1rem;
+}
+main p {
   padding: 1.2rem;
+  color: #fdffe2;
 }
-body p:first-child {
-  color: #ffd0ec;
-  font-size: 1.5rem;
+main .location {
+  color: #c5ff95;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 0;
 }
-body li {
+main li {
   list-style: none;
   background-color: #81689d;
+  color: #fdffe2;
   border-radius: 5%;
-  width: 60%;
+  font-weight: 700;
   margin: 0.75rem auto;
   padding: 1.2rem;
 }
-body footer {
-  margin: 6.25rem 0;
+
+footer {
+  color: #ffffff;
+  margin: 6.25rem auto 3.125rem auto;
+  text-align: center;
+}
+footer a {
+  color: #c5ff95;
 }
 
 /*# sourceMappingURL=styles.css.map */
