@@ -26,11 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot](/assets/images/screenshot.png)
 
 ### Links
 
--   Solution URL: [Not available](https://your-solution-url.com)
+-   Solution URL: [GitHub repository](https://github.com/CatalinaF-S/social-links-profile-main)
 -   Live Site URL: [Not available](https://your-live-site-url.com)
 
 ## My process
@@ -39,13 +39,16 @@ Users should be able to:
 
 -   Semantic HTML5 markup
 -   CSS custom properties
+-   SASS
 -   Flexbox
--   CSS Grid
 -   Mobile-first workflow
+-   Contrast and Color Accessibility
 
 ### What I learned
 
-To see how you can add code snippets, see below:
+in process ....
+
+<!-- To see how you can add code snippets, see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -61,13 +64,12 @@ To see how you can add code snippets, see below:
 const proudOfThisFunc = () => {
     console.log("🎉");
 };
-```
+``` -->
 
 ### Continued development
 
+The next step is to remember how to program a SPA with React.
+
 ### Useful resources
 
-## Author
-
--   Website - [Add your name here](https://www.your-site.com)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+-   WebAIM: Web accesibility in mind - [] (https://webaim.org/resources/contrastchecker/?fcolor=00FFBF&bcolor=474F7A)
