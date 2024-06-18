@@ -1,0 +1,31 @@
+//Import variables and mixins
+@import "variables";
+// @import "mixins";
+
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-primary;
+}
+
+body {
+    background-color: $background-primary;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+
+    img {
+        margin: 100px auto 30px auto;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    li {
+        background-color: $background-secondary;
+    }
+}
