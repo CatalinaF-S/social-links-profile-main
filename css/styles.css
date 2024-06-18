@@ -14,8 +14,8 @@ body {
 }
 body img {
   margin: 100px auto 30px auto;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   text-align: center;
 }
