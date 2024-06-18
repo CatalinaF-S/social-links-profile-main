@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [GitHub repository](https://github.com/CatalinaF-S/social-links-profile-main)
--   Live Site URL: [Not available](https://your-live-site-url.com)
+-   Live Site URL: [Live version](https://catalinaf-s.github.io/social-links-profile-main/)
 
 ## My process
 
