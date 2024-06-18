@@ -50,11 +50,21 @@ main .location {
 main li {
   list-style: none;
   background-color: #81689d;
-  color: #fdffe2;
   border-radius: 5%;
   font-weight: 700;
   margin: 0.75rem auto;
   padding: 1.2rem;
+}
+main li:hover {
+  background-color: #c5ff95;
+  cursor: pointer;
+}
+main li:hover a {
+  color: #1f2544;
+}
+main li a {
+  color: #fdffe2;
+  text-decoration: none;
 }
 
 footer {

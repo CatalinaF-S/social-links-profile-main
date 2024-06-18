@@ -59,11 +59,22 @@ main {
     li {
         list-style: none;
         background-color: $background-secondary;
-        color: $color-primary;
         border-radius: 5%;
         font-weight: 700;
         margin: 0.75rem auto;
         padding: 1.2rem;
+
+        &:hover {
+            background-color: $color-accent;
+            cursor: pointer;
+            a {
+                color: $background-body;
+            }
+        }
+        a {
+            color: $color-primary;
+            text-decoration: none;
+        }
     }
 }
 
